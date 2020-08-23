@@ -9,14 +9,14 @@
 // unshift longer
 // shift shorter
 
-
 // let names = ["Mr Bear", "Pusheen", "Planty"];
-// let newLength = names.unshift("Mr Sheep", "Theodore")
-// console.log(names);
-// console.log(newLength);
+// // let newLength = names.unshift("Mr Sheep", "Theodore")
+// // console.log(names);
+// // console.log(newLength);
 
 // names.unshift("Theodore");
 // console.log(names);
+// console.log(names.length);
 
 
 /* 

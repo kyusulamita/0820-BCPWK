@@ -15,10 +15,9 @@ http://www.pythontutor.com/visualize.html#code=let%20petNames%20%3D%20%5B'Mr.%20
 // console.log(petNames)
 // let petNames2 = petNames.slice();
 // let petNames2 = petNames;
-// console.log(petNames2);
 
 // petNames.push("Theodore");
-
+// petNames2[1] = "Sulamita";
 // console.log("petnames", petNames);
 // console.log("petNames2 ", petNames2);
 
@@ -30,7 +29,9 @@ http://www.pythontutor.com/visualize.html#code=let%20petNames%20%3D%20%5B'Mr.%20
 // one argument, we start at index two and go all the way to the end
 // petNamesCopy = petNames.slice(2);
 // console.log(petNamesCopy);
-// two arguments, we start at index 1 and start right before index 3
+// console.log(petNames);
+
+// two arguments, we start at index 1 and stop right before index 3
 // petNamesCopy = petNames.slice(1, 3);
 // console.log(petNamesCopy);
 
@@ -41,6 +42,9 @@ http://www.pythontutor.com/visualize.html#code=let%20petNames%20%3D%20%5B'Mr.%20
 // petNamesCopy = petNames.slice(-3, -1);
 // console.log(petNamesCopy);
 
+// start at index 2 and end before index 1
+// doesn't make sense
+// returns empty array
 // petNamesCopy = petNames.slice(2, 1);// = []
 // console.log(petNamesCopy);
 
@@ -59,6 +63,10 @@ let petNames = ['Mr. Bear', 'Mr. Sheep', 'Planty', 'Pusheen'];
 // let reversedArr = petNames.reverse();
 // console.log(reversedArr);
 // console.log(petNames);
+
+// const arr1 = [1, 2]
+// console.log(arr1 === arr1)
+// console.log(reversedArr === petNames);
 
 
 let petNamesCopy = petNames.slice(); // returns an array

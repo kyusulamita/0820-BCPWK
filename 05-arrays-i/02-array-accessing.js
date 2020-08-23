@@ -28,11 +28,11 @@
 
 let names = ["Mr Bear", "Pusheen", "Planty", "Mr Sheep"];
 console.log(names.length);
-console.log(names[0].length);
+// console.log(names[0].length);
 // // this means we can use a for loop to iterate over it!
+
 // 0 -> end of the array
 
-// end of the array -> 0
 for (let i = 0; i < names.length; i++) {
   const element = names[i];
   console.log('the element at ', i , ' is ', element)
@@ -40,6 +40,11 @@ for (let i = 0; i < names.length; i++) {
   names[i] = element.toUpperCase();
 }
 
+// names.length = 2;
 
-console.log(names);
+// console.log(names);
+
+// names.length = 4;
+
+// console.log(names);
 

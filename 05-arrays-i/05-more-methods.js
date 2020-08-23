@@ -4,16 +4,18 @@
   .indexOf is also an array method, 
   and works the same way as the string method of the same name 
   @param elemToLookFor
-  @param strIdx
+  @param startIdx [optional]
   learn more: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
 
 */
 
 // let names = ["Mr Bear", "Pusheen", "Planty", "Mr Sheep"];
-// console.log(names.indexOf("Planty"));
-// console.log(names.indexOf("Pusheen"));
+// console.log(names.indexOf("Planty")); // 2
+// console.log(names.indexOf("Pusheen")); // 1
 
-// console.log(names.indexOf("Mr"));
+// console.log(names.indexOf("Mr")); // -1
+// console.log(names.indexOf("Pusheen", 2)); // -1
+// console.log(names.indexOf("Pusheen", -3));// names.indexOf("Pusheen", names.length - 3)
 
 
 /* 
@@ -22,11 +24,11 @@
   learn more: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
 */
 
-let names = ["Mr Bear", "Pusheen", "Planty", "Mr Sheep"];
-console.log(names.includes("Planty"));
-console.log(names.includes("Pusheen"));
-console.log(names.includes("Pusheen", -3)); // names.length - 3
-console.log(names.includes("Mr"));
+// let names = ["Mr Bear", "Pusheen", "Planty", "Mr Sheep"];
+// console.log(names.includes("Planty"));
+// console.log(names.includes("Pusheen"));
+// console.log(names.includes("Pusheen", 2)); // false
+// console.log(names.includes("Mr")); // false
 
 
 // if (!names.includes("Pusheen")){
@@ -34,3 +36,27 @@ console.log(names.includes("Mr"));
 // } else {
 //   console.log('pusheen is in there')
 // }
+
+
+const allFours = [];
+
+const myNums = [2, 4, 34, 30, 14, 24];
+
+for (let i= 0 ; i < myNums.length; i++) {
+  // check if this is a number we're interested in 
+  const element = myNums[i];
+
+  // change the number to string
+  // 4 -> '4', 14 -> '14'
+  const strElem = String(element)
+  if (strElem.includes('4')){
+    // if it included 4 put it in all fours array
+    allFours.push(element);
+    
+  } else {
+    // if not do nothing
+  }
+  
+}
+
+console.log(allFours)

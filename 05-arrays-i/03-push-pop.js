@@ -6,10 +6,10 @@
   learn more: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push
 */
 // let names = ['Mr Bear', 'Pusheen', 'Planty'];
-// let newLength = names.push('Mr Sheep', 'Thomas');
+// // let newLength = names.push('Mr Sheep');
 // names.push('Theodore');
 // console.log(names);
-// console.log(newLength);
+// // console.log(newLength);
 // console.log(names.length);
 
 
@@ -19,6 +19,7 @@
   it returns the removed element 
   learn more: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop
 */
+
 // const names = ["Mr Bear", "Pusheen", "Planty", "Mr Sheep"];
 // let mrSheep = names.pop();
 // names.pop();
