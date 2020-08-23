@@ -4,6 +4,9 @@ Hello! This is where I will put all the material for BCP. If any of the links do
 
 [![Run on Repl.it](https://repl.it/badge/github/kyusulamita/0820-BCPWK)](https://repl.it/github/kyusulamita/0820-BCPWK)
 
+![Open replit](img/open-replit.gif)
+![Run Replit](img/run-replit.gif)
+
 ## Table of Contents
 
 1. [Introduction And Tidy Code](#01-introduction-and-tidy-code)
