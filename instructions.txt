@@ -1,0 +1,11 @@
+Hello in order to run a particular file you first have to change to the appropriate folder
+
+If you want to run the file '04-scope/08-block-scope'
+
+You will need to type in the following
+# switch to the folder 04-scope
+cd 04-scope 
+# run file 08-block-scope
+node 08-block-scope 
+
+once you've done 'cd' once you won't have to do it again
