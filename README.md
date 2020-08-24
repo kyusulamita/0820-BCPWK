@@ -12,6 +12,7 @@ Hello! This is where I will put all the material for BCP. If any of the links do
 3. [Coercion And Truthiness](#03-coercion-and-truthiness)
 4. [Scope](#04-scope)
 5. [Arrays I](#05-arrays-I)
+6. [Arrays II](#06-arrays-II)
 
 ## Additional Resources
 
@@ -143,3 +144,21 @@ Hello! This is where I will put all the material for BCP. If any of the links do
 5. [More methods](05-array-i/05-more-methods.js)
 6. [Slice + Reverse](05-array-i/06-slice.js)
 7. [Splice Sneak Peak](/05-arrays-i/07-splice-sneak-peak.js)
+
+## **06 Arrays II**
+
+<!-- **[Live Lecture](https://youtu.be/FOx6DlR0ftQ)** -->
+
+[Workshop](https://learn.fullstackacademy.com/workshop/5ac579437ec3340004bdde15/content/5ac579437ec3340004bdde1a/text)
+
+<!-- [Solutions](https://learn.fullstackacademy.com/workshop/5ac579437ec3340004bdde15/content/5ac579437ec3340004bdde1b/text) -->
+
+### Notes
+
+[Full Notes](06-arrays-II)
+
+1. [splice()](06-arrays-II/01-splice.js)
+2. [join() + split()](06-arrays-II/02-join-split.js)
+3. [concat()](06-arrays-II/03-concat.js)
+4. [Nested Arrays](06-arrays-II/04-nested-arrays.js)
+5. [Grid](06-arrays-II/05-array-grid.js)
