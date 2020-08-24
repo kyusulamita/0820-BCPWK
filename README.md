@@ -10,19 +10,8 @@ Hello! This is where I will put all the material for BCP. If any of the links do
 1. [Introduction And Tidy Code](#01-introduction-and-tidy-code)
 2. [Loops And Debugging](#02-loops-and-debugging)
 3. [Coercion And Truthiness](#03-coercion-and-truthiness)
-<!--
 4. [Scope](#04-scope)
 5. [Arrays I](#05-arrays-I)
-6. [Arrays II](#06-arrays-II)
-7. [Objects](#07-objects-i)
-8. [Object Methods](#08-objects-ii)
-9. [Pass By Value, Pass By Reference](#09-pass-by-value-pass-by-reference)
-10. [Higher Order Functions I](#10-higher-order-functions-i)
-11. [Higher Order Functions II](#10-higher-order-functions-ii)
-12. [Recursion I](#12-recursion-i)
-
-13. [Recursion II](#13-recursion-ii)
-    -->
 
 ## Additional Resources
 
@@ -55,7 +44,6 @@ Hello! This is where I will put all the material for BCP. If any of the links do
 
 ## **01 Introduction and Tidy Code**
 
-**[Live Lecture]()**
 
 [Workshop](https://learn.fullstackacademy.com/workshop/5ab7da028b8e9b000477fd36/content/5ab7dbafa468c900045db6ed/text)
 
@@ -76,7 +64,7 @@ Hello! This is where I will put all the material for BCP. If any of the links do
 
 [Lecture Slides](00-slides/02-Loops-and-Debugging.pdf)
 
-**[Live Lecture]()**
+**[Live Lecture](https://youtu.be/dNAe7_5fyIs)**
 
 [Workshop](https://learn.fullstackacademy.com/workshop/5ac57192f7ff470004a63148/content/5ac572977ec3340004bddd57/text)
 
@@ -96,11 +84,11 @@ Hello! This is where I will put all the material for BCP. If any of the links do
 
 [Lecture Slides](00-slides/03-Coercion-and-Truthiness.pdf)
 
-<!-- **[Live Lecture](https://youtu.be/EjrgS-8v4hc)** -->
+**[Live Lecture](https://youtu.be/IXqOk8kFCdE)**
 
 [Workshop](https://learn.fullstackacademy.com/workshop/5ac574e51abd3200043c12e8/content/5ac574e51abd3200043c12ed/text)
 
-<!-- [Solutions](https://learn.fullstackacademy.com/workshop/5ac574e51abd3200043c12e8/content/5ac574e51abd3200043c12ee/text) -->
+[Solutions](https://learn.fullstackacademy.com/workshop/5ac574e51abd3200043c12e8/content/5ac574e51abd3200043c12ee/text)
 
 
 ### Notes 
@@ -121,7 +109,7 @@ Hello! This is where I will put all the material for BCP. If any of the links do
 
 [Workshop](https://learn.fullstackacademy.com/workshop/5ac576417ec3340004bdddb4/content/5ac576417ec3340004bdddb9/text)
 
-<!-- [Solutions](https://learn.fullstackacademy.com/workshop/5ac576417ec3340004bdddb4/content/5ac576417ec3340004bdddba/text) -->
+[Solutions](https://learn.fullstackacademy.com/workshop/5ac576417ec3340004bdddb4/content/5ac576417ec3340004bdddba/text)
 
 ### Notes
 
@@ -139,11 +127,11 @@ Hello! This is where I will put all the material for BCP. If any of the links do
 
 ## **05 Arrays I**
 
-**[Live Lecture](https://youtu.be/SMKBs9ujpoQ)**
+**[Live Lecture](https://youtu.be/Qqdh0Gs0e7k)**
 
 [Workshop](https://learn.fullstackacademy.com/workshop/5ac57806bd9f9e0004adb186/content/5ac57806bd9f9e0004adb18b/text)
 
-<!-- [Solutions](https://learn.fullstackacademy.com/workshop/5ac57806bd9f9e0004adb186/content/5ac57806bd9f9e0004adb18c/text) -->
+[Solutions](https://learn.fullstackacademy.com/workshop/5ac57806bd9f9e0004adb186/content/5ac57806bd9f9e0004adb18c/text)
 
 ### Notes 
 [Full Notes](05-arrays-i)
@@ -155,5 +143,3 @@ Hello! This is where I will put all the material for BCP. If any of the links do
 5. [More methods](05-array-i/05-more-methods.js)
 6. [Slice + Reverse](05-array-i/06-slice.js)
 7. [Splice Sneak Peak](/05-arrays-i/07-splice-sneak-peak.js)
-
-## **06 Arrays II**
