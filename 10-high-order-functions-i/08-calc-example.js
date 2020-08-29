@@ -13,6 +13,9 @@ function minus(num1, num2) {
 }
 
 function calc(num1, operationFunc, num2) {
+  // num1 -> 10
+  // operationFunc -> plus
+  // num2 -> 20
   return operationFunc(num1, num2);
 }
 

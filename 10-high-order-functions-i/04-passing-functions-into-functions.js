@@ -17,12 +17,14 @@ functions that take a function or return a function are called"higher-order func
 */
 
 // function logsAType(value) {
+//   // value -> happyFunction
 //   console.log(typeof value);
 // }
 
 // function happyFunction() {
 //   console.log('I am happy!');
 // }
+
 // logsAType(happyFunction);
 
 
@@ -34,10 +36,9 @@ https://goo.gl/r7dHnj
 */
 
 // high order function <= taking in a function
+
 function callsAFunction(anotherFunction) {
-  // anotherFunction(); // invoking this time
   console.log("running");
-  // happyFunction();
   anotherFunction();
 }
 

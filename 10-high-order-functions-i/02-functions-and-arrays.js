@@ -30,7 +30,7 @@ console.log(amazingArray);
 // console.log(amazingArray[0])
 // amazingArray[0]();
 
-for (let i = 0; i< amazingArray.length; i++){
-  const elem = amazingArray[i];
-  elem();
+for (let i = 0; i < amazingArray.length; i++){
+  const func = amazingArray[i];
+  func();
 }

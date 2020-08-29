@@ -6,13 +6,13 @@
   hoisting
 */
 
-function callAllWith(arr, callbackFunc) {
-  for(let i = 0; i < arr.length; i++) {
-    callbackFunc(arr[i]);
-  };
-};
+// function callAllWith(arr, callbackFunc) {
+//   for(let i = 0; i < arr.length; i++) {
+//     // sayHelloWithName('Mike')
+//     callbackFunc(arr[i]);
+//   };
+// };
 // let group = ["Jane", "Jill", "Pip", "Mike"];
-
 
 // function sayByeWithName(name) {
 //   console.log("Bye, " + name + "!");
@@ -26,6 +26,7 @@ function callAllWith(arr, callbackFunc) {
 // };
 
 // const pets = ['Mr Bear', 'Pusheen', 'Sookie', 'Winkie'];
+
 // function petThePet(petName){
 //   console.log(`Pet ${petName}`);
 // }
@@ -45,12 +46,12 @@ function callAllWith(arr, callbackFunc) {
 
 /* we can pass anonymous functions into another function, too */
 
-// function callAllWith(names, sayWithNameFunc) {
-//   for (let i = 0; i < names.length; i++) {
-//     sayWithNameFunc(names[i]);
-//   }
-// }
-// const group = ['Mr Bear', 'Pusheen', 'Sookie', 'Winkie'];
+function callAllWith(names, anotherFunc) {
+  for (let i = 0; i < names.length; i++) {
+    anotherFunc(names[i]);
+  }
+}
+const group = ['Mr Bear', 'Pusheen', 'Sookie', 'Winkie'];
 
 // let group = ["Jane", "Jill", "Pip", "Mike"];
 
@@ -58,7 +59,7 @@ function callAllWith(arr, callbackFunc) {
 //   console.log("Bye, " + name + "!");
 // });
 
-// callAllWith(pets, function(name){
+// callAllWith(group, function(name){
 //   console.log(`${name} loves to jump.`);
 // });
 
@@ -71,7 +72,6 @@ function callAllWith(arr, callbackFunc) {
 
 // high order
 // callback 
-
 function callAllWith(arr, callbackFunc) {
   for (let i = 0; i < arr.length; i++) {
     const elem = arr[i];

@@ -2,6 +2,7 @@
 https://goo.gl/F6D3rA
 
 */
+
 function saysHi(name) {
   console.log(`Hi ${name}!`);
 }
@@ -11,6 +12,8 @@ function saysBye(name) {
 }
 
 function callsWithName(name, otherFunction) {
+  // name-> 'Sadie'
+  // otherFunction -> saysBye
   // saysBye('Sadie')
   otherFunction(name);
 }
