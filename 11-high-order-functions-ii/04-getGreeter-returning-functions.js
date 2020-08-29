@@ -11,11 +11,14 @@ function getGreeter() {
   function greetMe() {
     console.log('Hi!');
   }
+
   return greetMe;
 }
 
+// greetMe();
 let greeter = getGreeter();
 console.log(greeter);
+console.log(typeof greeter);
 greeter();
 ====== Example End =========== */
 
@@ -49,54 +52,55 @@ greeter();
 */
 
 
-// /* ==========Example Start==========
+/* ==========Example Start==========
 
 function getGreeter() {
 
-  function fancyGreeter (name, age, city) {
-    console.log(`hello ${name} from ${city}. You are ${age}`)
-  }
-  return fancyGreeter;
-  // return function (name = 'Theodore', age = 12) {
-  //   console.log(`Hi ${name}! You are ${age}`);
+  // function fancyGreeter (name, age, city) {
+  //   console.log(`hello ${name} from ${city}. You are ${age}`)
   // }
+  // return fancyGreeter;
+  return function (name = 'Theodore', age = 12, city = 'NYC') {
+    console.log(`hello ${name} from ${city}. You are ${age}`);
+  }
 
 
 }
 
-// let greeter = getGreeter();
-// console.log(greeter);
+let greeter = getGreeter();
+console.log(greeter);
 // greeter();
 // greeter('Sarah');
-// greeter('Sam', 30, 'NYC');
+greeter('Samantha', 30, 'NYC');
 
-// ====== Example End =========== */
+====== Example End =========== */
 
+/* ==========Example Start==========
 
-
-// function getGreeter(emotion) {
-//   function happyHello() {
-//     console.log('Im so happy to see you!! :)');
-//   }
+function getGreeter(emotion) {
+  function happyHello() {
+    console.log('Im so happy to see you!! :)');
+  }
   
-//   function madHello() {
-//     console.log('im not in the mood. go away');  
-//   }
+  function madHello() {
+    console.log('im not in the mood. go away');  
+  }
   
-//   if (emotion === 'happy'){
-//     return happyHello;
-//   }
+  if (emotion === 'happy'){
+    return happyHello;
+  }
   
-//   return madHello;
-// }
-// //  greeter -> happyHello
-// let greeter = getGreeter('happy');
-// greeter();
+  return madHello;
+}
+//  greeter -> happyHello
+let greeter = getGreeter('happy');
+greeter();
 // greeter();
 
-// // greeter2 -> madHello
-// let greeter2 = getGreeter('meghh');
+// greeter2 -> madHello
+let greeter2 = getGreeter('meghh');
+greeter2();
 // greeter2();
-// greeter2();
-// greeter();
-// greeter2();
+greeter();
+greeter2();
+====== Example End =========== */

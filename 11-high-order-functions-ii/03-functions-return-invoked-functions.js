@@ -13,7 +13,6 @@ function getGreeter() {
   return greetMe(); // what if we did invoke it?
 }
 
-// let greeter = greetMe;
 let greeter = getGreeter();
 
 console.log(typeof greeter);

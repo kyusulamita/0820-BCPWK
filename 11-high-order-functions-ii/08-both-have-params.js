@@ -9,7 +9,7 @@
 */
 
 
-// function getMonster(species) {
+// function monsterCreator(species) {
 //   // species
 //   return function(color) {
 //     // color
@@ -17,11 +17,19 @@
 //   };
 // }
 
-// let dragonCreator = getMonster('dragon');
+// let dragonCreator = monsterCreator('dragon');
 
 // dragonCreator('red');
 // dragonCreator('blue');
 // dragonCreator('emerald');
+
+// let krakenCreator = monsterCreator('Kraken');
+
+// krakenCreator('red');
+// krakenCreator('blue');
+// krakenCreator('emerald');
+
+// monsterCreator('Kraken')('pink');
 
 
 // make it so it adds one more exclamation point each time it gets called??
@@ -46,8 +54,8 @@ dragonCreator('emerald');
 
 // make another monster creator??
 
-// let gryphonCreator = getMonster('gryphon');
+let gryphonCreator = getMonster('gryphon');
 
-// gryphonCreator('brown');
-// gryphonCreator('white');
-// gryphonCreator('gold');
+gryphonCreator('brown');
+gryphonCreator('white');
+gryphonCreator('gold');

@@ -26,6 +26,7 @@
 // let gryphon = getMonster('gryphon');
 // gryphon();
 // dragon();
+// gryphon();
 
 
 function getMonster(species) {
@@ -42,10 +43,10 @@ function getMonster(species) {
 let dragon = getMonster('dragon');
 dragon();
 dragon();
-dragon();
+// dragon();
 
 let gryphon = getMonster('gryphon');
 gryphon();
-gryphon();
-gryphon();
+// gryphon();
+// gryphon();
 
