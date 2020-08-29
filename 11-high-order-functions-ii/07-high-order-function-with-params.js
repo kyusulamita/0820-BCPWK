@@ -29,24 +29,24 @@
 // gryphon();
 
 
-function getMonster(species) {
-  let roars = 0;
+// function getMonster(species) {
+//   let roars = 0;
 
-  return function() {
-    console.log(`ROAR, I am a ${species}.`);
-    roars++; // im incrementing roar every  time I call it
-    console.log(`I have roared ${roars}.`);
-  };
+//   return function() {
+//     console.log(`ROAR, I am a ${species}.`);
+//     roars++; // im incrementing roar every  time I call it
+//     console.log(`I have roared ${roars}.`);
+//   };
 
-}
+// }
 
-let dragon = getMonster('dragon');
-dragon();
-dragon();
+// let dragon = getMonster('dragon');
+// dragon();
+// dragon();
 // dragon();
 
-let gryphon = getMonster('gryphon');
-gryphon();
+// let gryphon = getMonster('gryphon');
+// gryphon();
 // gryphon();
 // gryphon();
 

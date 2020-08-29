@@ -16,11 +16,9 @@ function getGreeter() {
 }
 
 
-// let greeter = getGreeter();
-// console.log(typeof greeter);
-// console.log(greeter);
-// console.log(greeter === greetMe);
-// greeter();
+let greeter = getGreeter();
+console.log(typeof greeter);
+console.log(greeter);
+console.log(greeter === greetMe);
+greeter();
 
-
-greetMe();

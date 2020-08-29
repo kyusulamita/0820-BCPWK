@@ -9,7 +9,7 @@ function cacheMyFunc (callbackFunc) {
   // 3 -> 9
   // 12 -> 144
   const cache = {
-    // 2: 4, 
+    // 2: 4,
   }
 
   //
