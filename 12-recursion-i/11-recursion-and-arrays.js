@@ -27,6 +27,7 @@ simplest recursive case
 
 very first element + the sum of the rest of the array 
 [2, 3] => 5
+
 [2, 3] => 2 + recSumArr([3]) 
 recSumArr([3]) => 3
 2 + 3 = 5
@@ -40,26 +41,32 @@ recSumArr([3]) => 3
 https://goo.gl/of193d
 */
 // [2, 3]
-// function recSumArr(arr){
-//   if (arr.length === 0) {
-//     return 0;
-//   }
-//   if (arr.length === 1) {
-//     return arr[0];
-//   }
-//   // slice method
-//   const firstElem = arr[0]; // 2
-//   const restOfArr = arr.slice(1); // [3]
+function recSumArr(arr){
+  if (arr.length === 0) { //[]
+    return 0;// 0
+  }
+  if (arr.length === 1) {//[4]
+    return arr[0]; // 4
+  }
 
-//   const sumOfRestOfArr = recSumArr(restOfArr); // recSumArr([3])  => 3
+  // [1, 2, 3] =>
+  // recursive call should return very first element + the sum of the rest of the array 
+    // 1 + recSumArr([2, 3])
+    // 1 +( 2 + recSumArr([3]))
+    // 1 + (2 + (3))
+    // 1 + (5)
+    // 6
+  // arr [2, 3] => 5
+  const firstElem = arr[0]; 
+  const restOfArr = arr.slice(1); 
 
-//   return firstElem + sumOfRestOfArr; // 2 + 3
-// }
+  return firstElem + recSumArr(restOfArr); // 1 + recSumArr([2, 3]) => 1 + 5 => 6
+}
 
-// console.log(recSumArr([]));// 0
-// console.log(recSumArr([4])); // 4
-// console.log(recSumArr([2, 3])); //5
-// console.log(recSumArr([1, 2, 3, 4, 5])); //15
+console.log(recSumArr([]));// 0
+console.log(recSumArr([4])); // 4
+console.log(recSumArr([2, 3])); //5
+console.log(recSumArr([1, 2, 3, 4, 5])); //15
 
 /*
 https://goo.gl/rbnCUL

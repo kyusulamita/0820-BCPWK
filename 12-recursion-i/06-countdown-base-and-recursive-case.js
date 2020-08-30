@@ -39,8 +39,8 @@ https://goo.gl/EpNPCt
 really quickly lets compare the iterative and recursive version:
 
 iterative:
-function countdown(num) {
 
+function countdown(num) {
   for (let i = num; i >= 1; i--) {
     console.log(i);
   }
@@ -98,11 +98,8 @@ function countdown(num) {
   // recursive case
   if (num >= 1){
     console.log(num);
-    num--;
-    countdown(num);
-    // countdown(num--);  // 
-    // countdown(num - 1); // countdown(num--); MAX CALL STACK EXCEEDED
-    // countdown(--num); //perfectly fine
+    num--
+    countdown(num); // countdown(4)
   } else {
     // base case
     console.log('done!');
