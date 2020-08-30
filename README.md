@@ -205,3 +205,25 @@ Hello! This is where I will put all the material for BCP. If any of the links do
 7. [High Order Function + Params](11-high-order-functions-ii/07-high-order-function-with-params.js)
 8. [Both have params](11-high-order-functions-ii/08-both-have-params.js)
 9. [Both have params II](11-high-order-functions-ii/09-both-have-params-ii.js)
+
+## **12 Recursion I**
+
+**[Live Lecture]()**
+
+[Workshop](https://learn.fullstackacademy.com/workshop/5aca423037312200043b634a/content/5aca423137312200043b634e/text)
+
+<!-- [Solutions](https://learn.fullstackacademy.com/workshop/5aca423037312200043b634a/content/5aca423137312200043b6350/text)  -->
+
+### Notes 
+[Full Notes](12-recursion-i)
+1. [Call Stack I](12-recursion-i/01-call-stack-i.js)
+2. [Call Stack II](12-recursion-i/02-call-stack-ii.js)
+3. [Iterative Countdown](12-recursion-i/03-iterative-countdown.js)
+4. [Countdown - Just Logging](12-recursion-i/04-countdown-just-logging.js)
+5. [Countdown - Only recursive case](12-recursion-i/05-countdown-only-recursive-case.js)
+6. [Countdown - recursive + base case](12-recursion-i/06-countdown-base-and-recursive-case.js)
+7. [Notes to keep in mind](12-recursion-i/07-important-notes-to-keep-in-mind.js)
+8. [Factorial - base case](12-recursion-i/08-factorial-base-case.js)
+9. [Factorial - simple recursive case](12-recursion-i/09-factorial-simple-recursive-case.js)
+10. [Factorial- solution + takeaways](12-recursion-i/10-factorial-solution-takeaways.js)
+11. [Recursion + arrays](12-recursion-i/11-recursion-and-arrays.js)
